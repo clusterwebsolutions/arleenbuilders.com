@@ -6,9 +6,9 @@
 .menu { display:block; float:right; height:80px; width:550px;}
 .menu ul { display:block; list-style:none; float:right; margin:0px; padding:0px;}
 .menu ul li { display:block; float:left; }
-.menu ul li a { display:block; border-top:5px solid #fff; text-align:center; padding:0px 15px; text-transform:uppercase;  background:#fff; height:75px; line-height:75px; text-decoration:none; font-size:18px; color:#d0d0d0; }
-.menu ul li a:hover { color:#03ade6; } 
-.menu ul li .active, .menu ul li .active:hover { border-top:5px solid #03ade6; background:#dfecf3; color:#4c5051; }
+.menu ul li a { display:block; border-top:5px solid #fff; text-align:center; padding:0px 15px; text-transform:uppercase;  background:#fff; height:80px; line-height:75px; text-decoration:none; font-size:18px; color:#d0d0d0; }
+.menu ul li a:hover { color:#AE4B84; }
+.menu ul li .active, .menu ul li .active:hover { border-top:5px solid #AE4B84; background:#cccccc; color:#AE4B84; }
 /*-- --*/
 
 /*-- --*/
@@ -36,9 +36,9 @@ background: url(../images/slide-navigation.png) no-repeat; background-position:-
 .inner-content-section h2 { display:block; text-align:center; margin:0px; color:#282828; font-size:34px; }
 .content-title { display:block; text-align:center; margin:0px auto;}
 .content-title p { display:inline-block; margin:0px; padding:0px;  }
-.content-title p .lf-line { float:left; width:30px; border-top:1px solid #03ade6; margin-right:5px; margin-top:23px; }
-.content-title p .text { float:left; text-transform:uppercase; font-size:24px; padding:5px 0px; color:#03ade6; }
-.content-title p .rg-line { float:left; width:30px; border-top:1px solid #03ade6; margin-left:5px; margin-top:23px; }
+.content-title p .lf-line { float:left; width:30px; border-top:1px solid #AE4B84; margin-right:5px; margin-top:23px; }
+.content-title p .text { float:left; text-transform:uppercase; font-size:24px; padding:5px 0px; color:#AE4B84; }
+.content-title p .rg-line { float:left; width:30px; border-top:1px solid #AE4B84; margin-left:5px; margin-top:23px; }
 .color-text-1 { color:#999999; font-size:14px; line-height:20px; }
 .more-links { display:block; text-align:center; }
 .more-links .readmore { display:inline-block; height:29px; width:29px; background: url(../images/readmore.png) no-repeat; }
@@ -60,7 +60,7 @@ div.scrollableArea { position: relative; width: auto; height: 100%; }
 -moz-user-select: none; -o-user-select: none; user-select: none; }
 
 
-.boxgrid{ width: 233px; float:left; background:#03ade6; overflow: hidden; position: relative; }
+.boxgrid{ width: 233px; float:left; background:#AE4B84; overflow: hidden; position: relative; }
 .boxgrid img{ position: absolute; top: 0; left: 0; border: 0; z-index:2; }
 .boxgrid p { display:block; position:absolute; z-index:1; padding: 0; color:#afafaf; font-weight:bold; font:10pt "Lucida Grande", Arial, sans-serif; text-align:center; width:233px; }
 .boxcaption{ float: left; position: absolute; background: #000; height: 253px; width: 100%; opacity: .8; /* For IE 5-7 */filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);/* For IE 8 */-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
@@ -81,8 +81,8 @@ div.scrollableArea { position: relative; width: auto; height: 100%; }
 /*-- --*/
 .inner-pagecontent-section { min-height:150px; padding-bottom:80px; }
 .fixed-scontent { width:990px; margin:0px auto; }
-.fixed-scontent .page-title { display:block; margin:20px 0px 20px 0px; padding:0px; color:#03ade6; border-bottom:1px solid #ccc; text-transform:uppercase; font-size:30px; }
-.fixed-scontent .page-subtitle { margin:0px 0px 10px 0px; padding:0px; color:#03ade6; font-size:24px; }
+.fixed-scontent .page-title { display:block; margin:20px 0px 20px 0px; padding:0px; color:#AE4B84; border-bottom:1px solid #ccc; text-transform:uppercase; font-size:30px; }
+.fixed-scontent .page-subtitle { margin:0px 0px 10px 0px; padding:0px; color:#AE4B84; font-size:24px; }
 .fixed-scontent .text { font-size:15px; color:#666; line-height:19px; }
 .fixed-scontent img { float:left; margin:0px 20px 0px 0px; }
 #services-list { display:block !important; background:#f1f1f1; width:780px; height:120px; margin:0px auto; padding:0px 0px 0px 20px; }
@@ -97,13 +97,13 @@ div.scrollableArea { position: relative; width: auto; height: 100%; }
 .secondary-content-section { display:block; height:412px; background:#171717; }
 .inner-sec-content-section { width:990px; margin:0px auto; }
 .form-section { width:495px; height:415px; float:left; position:relative;  }
-.form-section .title { color:#03ade6; font-size:27px; text-transform:uppercase; padding:15px 0px 15px 0px; }
+.form-section .title { color:#AE4B84; font-size:27px; text-transform:uppercase; padding:15px 0px 15px 0px; }
 .form-section .form-field { background:#525252; border:1px solid #222; color:#2d2d2d; display:block; width:400px; padding:15px 0px 15px 10px; margin-bottom:20px; }
 .form-section .form-textarea { background:#525252; border:1px solid #222; color:#2d2d2d; display:block; width:400px; padding:15px 0px 0px 10px; height:120px; margin-bottom:20px; }
 .form-section .form-field:focus, .form-section .form-textarea:focus { border:1px solid #999; }
 .form-section .form-button { background:url(../images/sendbuttonnotselected.jpg) no-repeat; display:block; width:102px; height:42px; border:0px; cursor:pointer; }
 .download-section {  width:495px; height:415px; float:right; position:relative;   }
-.download-section .title { color:#03ade6; font-size:27px; text-transform:uppercase; padding:15px 0px 15px 0px; }
+.download-section .title { color:#AE4B84; font-size:27px; text-transform:uppercase; padding:15px 0px 15px 0px; }
 .brochurer-slideshow { position:relative; width:450px; height:260px; padding-top:35px; background:#000000;  }
 .message { position:absolute; top:20px; right:83px; width:290px; height:40px; }
 .message #error { display:none; background:#C94751; font-size:12px; padding:2px 5px; color:#63141B;  }
@@ -133,18 +133,18 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover{  background-posi
 
 
 /*-- --*/
-.footer-section { display:block; height:225px; }
-.inner-footer-section { width:990px; height:255px; margin:0px auto; position:relative; }
+.footer-section { display:block; height:272px; }
+.inner-footer-section { width:990px; height:272px; margin:0px auto; position:relative; }
 .left-foot { float:left;}
 .left-foot p { margin:0px; padding:0px 0px 3px 0px; color:#666666; font-size:13px; }
-.left-foot p a { color:#03ade6; text-decoration:none; }
+.left-foot p a { color:#AE4B84; text-decoration:none; }
 .sharing-section { float:right; height:39px; width:200px; margin:20px 0px 0px 0px; }
 .social-media { float:right; display:block; width:39px; height:39px; background: url(../images/social-media.png) no-repeat; margin-left:10px; }
 .social-media:hover { background:url(../images/social-media-hover.png) no-repeat; }
 #fb{ background-position:0px 0px;  }
 #tw{ background-position:-48px 0px; }
 #yt{ background-position:-95px 0px;  }
-.left-foot .title { color:#03ade6; font-size:25px; text-transform:uppercase; padding:20px 0px 10px 0px; }
+.left-foot .title { color:#AE4B84; font-size:25px; text-transform:uppercase; padding:20px 0px 10px 0px; }
 .copyright { position:absolute; bottom:0px; width:100%; border-top:1px solid #ccc; color:#666; font-size:12px; padding:15px 0px 15px 0px; text-align:center; }
 /*-- --*/
 
@@ -152,7 +152,7 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover{  background-posi
 .tab { padding: 0; margin:-20px 0px 0px 0px; display:block !important; background:#f3f3f3; height:40px; clear: both; }
 .tab li { display: inline; }
 .tab li a { float:left; text-decoration: none; text-transform:uppercase; padding:0px 20px 0px 20px; color: #aeaeae; height:37px; line-height:37px; border-bottom:3px solid #f3f3f3; }
-.tab li.active a { background: #fff; color:#000; border-bottom:3px solid #03ade6;}
+.tab li.active a { background: #fff; color:#000; border-bottom:3px solid #AE4B84;}
 .tabcontent { float: left; clear: both; width: 990px; }
 .tabcontent .project-title { color:#666; font-size:20px; text-transform:uppercase; margin:15px 0px; padding:0px; }
 .project-imagecase { height:135px; padding-bottom:10px; border-bottom:1px solid #f3f3f3; }
